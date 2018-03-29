@@ -6,6 +6,7 @@ Thumbs.db
 # IDE
 ######################
 .vscode/
+.vs/
 
 ###################
 # compiled source #

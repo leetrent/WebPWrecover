@@ -1,3 +1,4 @@
+--USE LMS;
 CREATE TABLE `AspNetUsers` (
   `Id` varchar(256) NOT NULL,
   `AccessFailedCount` int(11) NOT NULL,

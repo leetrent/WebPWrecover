@@ -39,7 +39,7 @@ namespace WebPWrecover
             // NOW THAT WE HAVE OUR CONNECTION STRING, WE CAN ESTABLISH OUR DB CONTEXT
             services.AddDbContext<ApplicationDbContext>
             (
-                options => options.UseMySQL(connectionString)
+                options => options.UseNpgsql(connectionString)
             );
 
             services.AddIdentity<ApplicationUser, IdentityRole>(config =>

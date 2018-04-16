@@ -8,4 +8,4 @@ applications:
     DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
     ASPNETCORE_ENVIRONMENT: Development
 services:
- - mysqldb
+ - postgresqldb
